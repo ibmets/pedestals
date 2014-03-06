@@ -1,0 +1,49 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 5,
+			"h" : 1,
+			"url" : "data/social/content/vision1.html"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 5,
+			"title" : "Read more about:<br/><br/>Social Business Factors<br/><br/>",
+			"onclick" : "nestedtext",
+			"data" : "social/businessfactors.json"
+		},
+		{
+			"w" : 4,
+			"h" : 1,
+			"ow" : 1,
+			"oh" : 1,
+			"url" : "data/social/content/vision2.html"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 5,
+			"oh" : 1,
+			"title" : "Read more about:<br/><br/>Social Business Links<br/><br/>",
+			"onclick" : "nestedtext",
+			"data" : "social/businesslinks.json"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 2,
+			"oh" : 2,
+			"url" : "data/social/content/vision3.html"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 5,
+			"oh" : 2,
+			"title" : "Read more about:<br/><br/>IBMs Social Business Transformation<br/><br/>",
+			"onclick" : "nestedtext",
+			"data" : "social/businesstransform.json"
+		}
+	]
+}

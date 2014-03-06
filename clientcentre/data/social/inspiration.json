@@ -1,0 +1,56 @@
+{
+	"sections" : [
+		{
+			"w" : 4,
+			"h" : 1,
+			"ow" : 1,
+			"oh" : 1,
+			"url" : "data/social/content/inspiration1.html"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"ow" : 1,
+			"url" : "data/social/content/inspiration8.html"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"url" : "data/social/content/inspiration2.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 3,
+			"url" : "data/social/content/inspiration3.html"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"oh" : 2,
+			"ow" : 4,
+			"url" : "data/social/content/inspiration5.html"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"oh" : 2,
+			"ow" : 0,
+			"url" : "data/social/content/inspiration4.html"
+		},
+		{
+			"w" : 1,
+			"h" : 2,
+			"oh" : 1,
+			"ow" : 5,
+			"url" : "data/social/content/inspiration6.html"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"oh" : 1,
+			"ow" : 0,
+			"url" : "data/social/content/inspiration7.html"
+		}
+	]
+}

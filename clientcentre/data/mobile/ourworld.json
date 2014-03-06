@@ -1,0 +1,51 @@
+{ 
+	"sections" : [ 
+        {
+			"w" : 0.9,
+			"h" : 1.8,
+            "ow":1.1,
+            "oh":1.25,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/backgrounds/pi.png\" style=\"width: 100%;\"></div>",
+			"nobackground" : true
+        },
+            
+        {
+			"w" : 2,
+			"h" : 3,
+            "oh":0,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/pi.jpg\" style=\"width: 100%;\"></div>",
+			"nobackground" : true
+		}
+        ,
+        
+        {
+			"w" : 1,
+			"h" : 1,
+			"ow" : 4,
+            "oh" : 1,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/siracusa1.PNG\" style=\"width: 100%;\"></div>",
+			"nobackground" : true
+		}
+        ,
+		{
+			"w" : 2,
+			"h" : 3,
+			"ow" : 2,
+			"url" : "data/mobile/content/ourworld2.html"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+            "ow" : 4,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/estimote.jpg\" style=\"width: 100%;\"></div>",
+			"nobackground" : true
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"ow" : 4,
+            "oh" : 2,
+			"url" : "data/mobile/content/ourworld1.html"
+        }
+	]
+}

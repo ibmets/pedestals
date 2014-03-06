@@ -1,0 +1,39 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 1.5,
+			"h" : 2,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/productAR.jpg\" style=\"height: 100%;\"></div>"
+		},
+		{
+			"w" : 2.5,
+			"h" : 2,
+			"ow" : 1.5,
+			"url" : "data/mobile/content/analytics.html"
+		},
+        {
+			"w" : 1.5,
+			"h" : 1,
+			"ow" : 3,
+			"oh" : 2,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/ibn-mro-3.jpg\" style=\"width: 100%;\"></div>",
+			"nobackground" : true
+        },
+        {
+			
+            "w" : 1.5,
+			"h" : 2,
+            "oh" : 1,
+			"ow" : 4.5,
+			"url" : "data/mobile/content/aug2.html"
+        },
+        {
+			"w" : 3,
+			"h" : 1,
+			"ow" : 0,
+			"oh" : 2,
+			"url" : "data/mobile/content/aug1.html"
+		}
+            
+	]
+}

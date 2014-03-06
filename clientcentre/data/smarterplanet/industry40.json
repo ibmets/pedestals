@@ -1,0 +1,48 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 0,
+			"oh" : 0,
+			"url" : "data/smarterplanet/content/industry40_1.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 3,
+			"oh" : 0,
+			"url" : "data/smarterplanet/content/industry40_2.html"
+		},
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 0,
+			"oh" : 1,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Production_Line1.png",
+			"imageWidth":"106%",
+			"onclick": "image"
+		},
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 2,
+			"oh" : 1,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Production_Line2.png",
+			"imageWidth":"108%",
+			"onclick": "image"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 4,
+			"oh" : 1,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Production_Line_Architecture.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		}
+	]
+}

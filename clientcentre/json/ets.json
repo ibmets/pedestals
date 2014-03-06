@@ -1,0 +1,120 @@
+{
+	"title" : "About ETS",
+	"owner" : "Andy Feltham",
+	"email" : "andy_feltham@uk.ibm.com",
+	"rows" : [
+		{
+			"content" : [
+				{
+					"w" : 5,
+					"h" : 2,
+					"title" : "",
+					"url": "data/ets/content/front.html",
+					"html" : ""
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Cloud",
+					"icon" : {
+						"url" : "../../../data/ets/icons/cloud.png",
+						"width" : "85px"
+					},
+					"onclick" : "jump",
+					"page" : 1
+				}
+			]
+		},
+
+		{
+			"content" : [
+				{
+					"w" : 1,
+					"h" : 1,
+					"ow" : 5,
+					"title" : "Security",
+					"onclick" : "jump",
+					"page" : 6,
+					"icon" : {
+						"url" : "../../../data/ets/icons/security.png",
+						"width" : "85px"
+					}
+				}
+			]
+		},
+
+		{
+			"content" : [
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Analytics",
+					"icon" : {
+						"url" : "../../../data/ets/icons/big-data.png",
+						"width" : "85px"
+					},
+					"onclick" : "jump",
+					"page" : 5
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Social Business",
+					"onclick" : "jump",
+					"page" : 3,
+					"icon" : {
+						"url" : "../../../data/ets/icons/Chat.png",
+						"width" : "85px"
+					}
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Internet of Things",
+					"icon" : {
+						"url" : "../../../data/ets/icons/iot.png",
+						"width" : "85px"
+					},
+					"onclick" : "jump",
+					"page" : 4
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Mobile",
+					"icon" : {
+						"url" : "../../../data/ets/icons/SmartPhone.png",
+						"width" : "85px"
+					},
+					"onclick" : "jump",
+					"page" : 2
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Cognitive Computing",
+					"icon" : {
+						"url" : "../../../data/ets/icons/cognitive.png",
+						"width" : "85px"
+					},
+					"onclick" : "jump",
+					"page" : 7
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Business Innovation",
+					"icon" : {
+						"url" : "../../../data/ets/icons/business-intelligence.png",
+						"width" : "85px"
+					},
+					"onclick" : "jump",
+					"page" : 9
+				}
+			]
+		}
+
+	]
+
+
+}

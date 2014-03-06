@@ -1,0 +1,74 @@
+{
+	"owner" : "Andy Feltham",
+	"email" : "andy_feltham@uk.ibm.com",
+	"rows" : [
+		{
+			"content" : [
+				{
+					"w" : 6,
+					"h" : 2,
+					"image": "data/bigdata/images/analytics_banner2.png",
+					"imageWidth": "100%",
+					"fontRatio": 16,
+					"data" : "bigdata/datascience.json"
+
+				}
+			]
+		},
+		{
+			"content" : [
+			]
+		},
+		{
+			"content" : [
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Edge Analytics",
+					"image" : "data/bigdata/images/Gaian_1.png",
+					"imageHeight": "85%",
+					"onclick" : "text",
+					"data" : "bigdata/edge-analytics.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"image": "data/bigdata/images/calm_icon.png",
+					"imageWidth":"100%",
+					"onclick" : "text",
+					"title": "Big Data",
+					"data" : "bigdata/bigdata.json"
+				},
+				{
+					"title" : "Text Analytics",
+					"w" : 1,
+					"h" : 1,
+					"image": "data/bigdata/images/text_analytics_icon.png",
+					"imageWidth": "100%",
+					"onclick" : "text",
+					"data" : "bigdata/textanalytics.json"
+				},
+				{
+					"title" : "Data Science",
+					"w" : 1,
+					"h" : 1,
+					"image": "data/bigdata/images/data_science_icon.png",
+					"imageWidth": "100%",
+					"onclick" : "text",
+					"data" : "bigdata/datascience.json"
+				},
+				{
+					"w" : 2,
+					"h" : 1,
+					"title" : "Spatial Analytics",
+					"image": "data/bigdata/images/spatial/single-prediction-tile-full.png",
+					"imageWidth": "100%",
+					"onclick" : "text",
+					"fontRatio": 16,
+					"data" : "bigdata/spatial.json"
+				}
+			]
+		}
+
+	]
+}

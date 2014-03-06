@@ -1,0 +1,49 @@
+{
+	"sections" : [
+		{
+			"w" : 2,
+			"h" : 1.5,
+			"oh" : 0,
+            "ow" : 2,
+			"url" : "data/security/fhe/content/fhe1.html"
+		},
+        {
+			"w" : 2,
+			"h" : 1.5,
+			"oh" : 1.5,
+            "ow" : 0,
+			"url" : "data/security/fhe/content/fhe2.html"
+		},
+        {
+            "w" : 2,
+            "h" : 1.5,
+            "oh" : 0,
+            "ow" : 0,
+			"image":"data/security/fhe/content/AliceBob.png",
+			"imageWidth":"100%",
+			"imageHeight":"100%",
+			"onclick": "image"
+
+		},
+        {
+            "w" : 2,
+            "h" : 1.5,
+            "oh" : 1.5,
+            "ow" : 2,
+			"image":"data/security/fhe/content/oblivious.png",
+			"imageWidth":"100%",
+			"imageHeight":"100%",
+			"onclick": "image"
+		},
+        {
+            "w" : 2,
+            "h" : 1.5,
+            "oh" : 1.5,
+            "ow" : 4,
+			"image":"data/security/fhe/content/blueblue.png",
+			"imageWidth":"100%",
+			"imageHeight":"100%",
+			"onclick": "image"
+		}
+	]
+}

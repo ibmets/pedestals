@@ -1,0 +1,34 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 4,
+			"oh" : 0,
+			"url" : "data/smarterplanet/content/ar1.html"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"ow" : 4,
+			"oh" : 2,
+			"url" : "data/smarterplanet/content/ar2.html"
+		},
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 2,
+			"oh" : 0,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/smarterplanet/images/Farsight[Cropped].png\" style=\"height: 100%;\"></div>",
+			"nobackground" : true
+		},
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 0,
+			"oh" : 0,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/smarterplanet/images/Farsight_3D_Object.png\" style=\"height: 100%;\"></div>",
+			"nobackground" : true
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"sections" : [
+		{
+			"w" : 2.5,
+			"h" : 2,
+			"oh" : 0,
+            "ow" : 0,
+			"url" : "data/security/mobileSecurity/content/mobileSecurity1.html"
+		},
+        {
+			"w" : 2.5,
+			"h" : 1,
+			"oh" : 1,
+            "ow" : 2.5,
+			"url" : "data/security/mobileSecurity/content/mobileSecurity2.html"
+		},
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 3,
+			"oh" : 0,
+            "nobackground" : true,
+			"image":"data/security/mobileSecurity/content/Location IFC.jpg",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+        {
+			"w" : 1,
+			"h" : 2,
+            "ow": 5,
+            "oh": 0,
+            "nobackground" : true,
+			"image":"data/security/mobileSecurity/content/screenshot_geospatial AC.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 0,
+			"oh" : 2,
+            "nobackground" : true,
+			"image":"data/security/mobileSecurity/content/Demo_LIFC2.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+        {
+			"w" : 2,
+			"h" : 2,
+            "ow": 4,
+            "oh": 2,
+            "nobackground" : true,
+			"image":"data/security/mobileSecurity/content/Demo_LIFC3.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		}
+	]
+}

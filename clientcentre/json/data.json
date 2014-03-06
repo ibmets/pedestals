@@ -1,0 +1,12 @@
+{
+  "areas" : [
+      {"id": "ets", "title" : "Emerging Technology"},
+      {"id":"cloud", "title" : "Cloud Computing"},
+      {"id":"mobile", "title" : "Mobile"},
+      {"id":"social", "title" : "Social Business"},
+      {"id":"smarterplanet", "title" : "Internet of Things"},
+      {"id":"bigdata", "title" : "Analytics"},
+      {"id":"security", "title" : "Security"},
+      {"id":"cognitive", "title" : "Cognitive Computing"}
+  ]
+}

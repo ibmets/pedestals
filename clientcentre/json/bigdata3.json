@@ -1,0 +1,67 @@
+{
+	"owner" : "Andy Feltham",
+	"email" : "andy_feltham@uk.ibm.com",
+	"rows" : [
+		{
+			"content" : [
+				{
+					"w" : 6,
+					"h" : 2,
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/bigdata/images/analytics_banner.png\" style=\"width: 100%; display: block;\"><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div>",
+					"fontRatio": 16,
+					"data" : "bigdata/datascience.json"
+				}
+			]
+		},
+              {
+              "content" : [
+                                                      ]
+              },
+				{
+			"content" : [
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Edge Analytics",
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/bigdata/images/Gaian_1.png\" style=\"height: 85%; display: block;\"><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div></div>",
+					"onclick" : "text",
+					"data" : "bigdata/edge-analytics.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/bigdata/images/calm_icon.png\" style=\"width: 100%; height: 100%; display: block;\"><div style=\"display: height: 100%; block;position: absolute;right: 7%;bottom: 5%;\"></div></div>",
+					"onclick" : "text",
+					"title": "Big Data",
+					"data" : "bigdata/bigdata.json"
+				},
+                {
+                    "title" : "Text Analytics",
+					"w" : 1,
+					"h" : 1,
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/bigdata/images/text_analytics_icon.png\" style=\"width: 100%; display: block;\"><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div></div>",
+					"onclick" : "text",
+					"data" : "bigdata/textanalytics.json"
+				},
+                         {
+                    "title" : "Data Science",
+                    "w" : 1,
+                    "h" : 1,
+                    "html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/bigdata/images/data_science_icon.png\" style=\"width: 100%; display: block;\"><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div></div>",
+                         "onclick" : "text",
+                         "data" : "bigdata/datascience.json"
+                },
+                         {
+                     "w" : 2,
+                     "h" : 1,
+                     "title" : "Spatial Analytics",
+                     "html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/bigdata/images/spatial/single-prediction-tile-full.png\" style=\"width: 100%; display: block;\"><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div></div>",
+                           "onclick" : "text",
+                           "fontRatio": 16,
+                           "data" : "bigdata/spatial.json"
+                           }
+                           ]
+              }
+
+	]
+}

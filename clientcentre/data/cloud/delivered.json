@@ -1,0 +1,11 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 2,
+			"h" : 1,
+			"ow" : 2,
+			"oh" : 2,
+			"url" : "data/cloud/content/delivered-content.html"
+		}
+	]
+}

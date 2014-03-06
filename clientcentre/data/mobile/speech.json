@@ -1,0 +1,24 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3.5,
+			"h" : 3,
+			"ow" : 1.5,
+			"url" : "data/mobile/content/speech.html"
+			
+		},
+		{
+			"w" : 1.5,
+			"h" : 3,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/BPplus1.png\" style=\"width: 100%;\"></div>"
+		},
+		{
+			"w" : 1,
+			"h" : 2,
+			"ow" : 5,
+			"oh" : 0,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/BPplus2.png\" style=\"width: 100%;\"></div>",
+			"nobackground" : true
+		}
+	]
+}

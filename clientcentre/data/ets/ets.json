@@ -1,0 +1,44 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 5,
+			"oh" : 2,
+			"icon" : { 
+				"url" : "../../../data/ets/icons/et_swirl_transparent.png",
+				"width" : "160px",
+				"style" : { 
+					"margin-left" : "-30px"
+				}
+			},
+			"title" : "Blog",
+			"url" : "data/ets/content/blog.html"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 5,
+			"oh" : 1,
+			"url" : "data/ets/content/twitter.html",
+			"title" : "Twitter",
+			"icon" : { 
+				"url" : "../../../data/ets/icons/Twitter.png",
+				"width" : "85px" 
+			}
+		},
+		{
+			"w" : 5,
+			"h" : 1,
+			"oh" : 2,
+			"url" : "data/ets/content/about.html"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 5,
+			"url" : "data/ets/content/something.html"
+		}
+		
+	]
+}

@@ -1,0 +1,25 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3,
+			"h" : 2,
+			"ow" : 1,
+			"url" : "data/mobile/content/messaging.html"
+		},
+		{
+			"w" : 1,
+			"h" : 2,
+			"ow" : 0,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/uif.png\" style=\"height: 100%;width:95%;\"></div>",
+			"nobackground" : true
+		}
+        ,
+		{
+			"w" : 2,
+			"h" : 3,
+			"ow" : 4,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/mocha.png\" style=\"height: 100%;\"></div>",
+			"nobackground" : true
+		}
+	]
+}

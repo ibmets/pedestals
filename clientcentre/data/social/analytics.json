@@ -1,0 +1,30 @@
+{
+	"sections" : [
+		{
+			"w" : 3,
+			"h" : 1,
+			"image": "data/social/images/socialmediaanalytics.png",
+			"imageWidth": "100%",
+			"nobackground" : true
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"oh" : 1,
+			"url" : "data/social/content/analytics1.html"
+		},
+		{
+			"w" : 3,
+			"h" : 2,
+			"ow" : 3,
+			"url" : "data/social/content/analytics2.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 2,
+			"oh" : 2,
+			"url" : "data/social/content/analytics3.html"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 2,
+			"oh" : 1,
+			"url" : "data/mobile/content/comms.html"
+		},
+		{
+			"w" : 2,
+			"h" : 3,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/2s.png\" style=\"float: right; height: 100%;\"></div>",
+			"nobackground" : true
+		},
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 4,
+			"oh" : 1,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/4.png\" style=\"width: 100%;\"></div>",
+			"nobackground" : true
+		}
+	]
+}

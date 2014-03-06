@@ -1,0 +1,40 @@
+{
+    "sections" : [
+                  {
+                  "w" : 4,
+                  "h" : 1,
+                  "ow" : 2,
+                  "oh" : 0,
+                  "url" : "data/social/content/wimbledon1.html"
+                  },
+                  {
+                  "w" : 2,
+                  "h" : 1,
+                  "ow" : 3,
+                  "oh" : 1,
+                  "url" : "data/social/content/wimbledon2.html"
+                  },
+                  {
+                  "w" : 3,
+                  "h" : 2,
+                  "ow" : 0,
+                  "oh" : 1,
+                  "html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/social/images/wimbledon2014-home.jpg\" style=\"height: 100%;\"></div>",
+                  "nobackground" : true
+                  },
+                  {
+                  "w" : 1,
+                  "h" : 1,
+                  "oh" : 1,
+                  "ow" : 5,
+                  "html" : "<div style=\"height: 100%; width: 100%; background: rgb(95, 155, 112);\" onclick=\"$('.selectedItem').css('background', ''); $('.selectedItem').removeClass('selectedItem'); $('.overlay .cellContainer').css('opacity', ''); $('.currentPage').append ( $('.overlay .cellContainer') ); clearOverlay( function () { openDemo('http://smcc-2015.mybluemix.net/home'); } );\"><div class=\"cellTitle2\">Run Demo</div><div class=\"cellIcon\"><center><img src=\"css/images/play.png\" style=\"width: 60px;  padding-top: 10%;\"></center></div></div>"
+                  },
+                  {
+                  "w" : 1,
+                  "h" : 1,
+                  "oh" : 2,
+                  "ow" : 4,
+                  "html" : "<div style=\"height: 100%; width: 100%; \" onclick=\"$('.selectedItem').css('background', ''); $('.selectedItem').removeClass('selectedItem'); $('.overlay .cellContainer').css('opacity', ''); $('.currentPage').append ( $('.overlay .cellContainer') ); clearOverlay( function () { openDemo('http://etsvc02.hursley.ibm.com/cc/pedestals/social/video/wimbledon.mp4'); } );\"><div class=\"cellTitle2\">Video</div><div class=\"cellIcon\"><center><img src=\"css/images/play.png\" style=\"width: 60px;  padding-top: 10%;\"></center></div></div>"
+                  }
+                  ]
+}

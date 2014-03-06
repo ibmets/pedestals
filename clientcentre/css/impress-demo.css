@@ -1,0 +1,558 @@
+/*
+    So you like the style of impress.js demo?
+    Or maybe you are just curious how it was done?
+
+    You couldn't find a better place to find out!
+
+    Welcome to the stylesheet impress.js demo presentation.
+
+    Please remember that it is not meant to be a part of impress.js and is
+    not required by impress.js.
+    I expect that anyone creating a presentation for impress.js would create
+    their own set of styles.
+
+    But feel free to read through it and learn how to get the most of what
+    impress.js provides.
+
+    And let me be your guide.
+
+    Shall we begin?
+*/
+
+
+/*
+    We start with a good ol' reset.
+    That's the one by Eric Meyer http://meyerweb.com/eric/tools/css/reset/
+
+    You can probably argue if it is needed here, or not, but for sure it
+    doesn't do any harm and gives us a fresh start.
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*
+    Now here is when interesting things start to appear.
+
+    We set up <body> styles with default font and nice gradient in the background.
+    And yes, there is a lot of repetition there because of -prefixes but we don't
+    want to leave anybody behind.
+*/
+body {
+    font-family: 'Roboto Slab';
+    min-height: 740px;
+    background: #676767;
+    color: #eee;
+}
+
+/*
+    Now let's bring some text styles back ...
+*/
+b, strong { font-weight: bold }
+i, em { font-style: italic }
+
+code { font-family: monospace; background: #333; padding: 0 5px; margin: 0 2px; border-radius: 3px;}
+/*
+    ... and give links a nice look.
+*/
+a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0 0.1em;
+    background: rgba(255,255,255,0.5);
+    text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
+    border-radius: 0.2em;
+
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+a:hover,
+a:focus {
+    background: rgba(255,255,255,1);
+    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+}
+
+/*
+    Because the main point behind the impress.js demo is to demo impress.js
+    we display a fallback message for users with browsers that don't support
+    all the features required by it.
+
+    All of the content will be still fully accessible for them, but I want
+    them to know that they are missing something - that's what the demo is
+    about, isn't it?
+
+    And then we hide the message, when support is detected in the browser.
+*/
+
+.fallback-message {
+    font-family: sans-serif;
+    line-height: 1.3;
+
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid ##999;
+    border-radius: 10px;
+    background: #676767;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+/*
+    Now let's style the presentation steps.
+
+    We start with basics to make sure it displays correctly in everywhere ...
+*/
+
+.step {
+    position: relative;
+    width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+/*
+    ... and we enhance the styles for impress.js.
+
+    Basically we remove the margin and make inactive steps a little bit transparent.
+*/
+
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+
+.impress-enabled .step.active { opacity: 1 }
+
+/*
+    These 'slide' step styles were heavily inspired by HTML5 Slides:
+    http://html5slides.googlecode.com/svn/trunk/styles.css
+
+    ;)
+
+    They cover everything what you see on first three steps of the demo.
+*/
+.slide {
+    display: block;
+    width: 900px;
+    height: 700px;
+    padding: 40px 60px;
+
+    -n-border: 1px solid rgba(0, 0, 0, .3);
+    -n-border-radius: 5px;
+    -n-box-shadow: 4px 4px 12px rgba(0, 0, 0, .3);
+
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.shade {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+}
+
+.slide q {
+    display: block;
+    font-size: 50px;
+    line-height: 72px;
+
+    margin-top: 100px;
+}
+
+.slide q strong {
+    white-space: nowrap;
+}
+.fill {
+    text-align: center;
+}
+.fill > img {
+    max-width: 100%;
+    margin: auto;
+}
+
+/*
+    And now we start to style each step separately.
+
+    I agree that this may be not the most efficient, object-oriented and
+    scalable way of styling, but most of steps have quite a custom look
+    and typography tricks here and there, so they had to be styled separately.
+
+    First is the title step with a big <h1> (no room for padding) and some
+    3D positioning along Z axis.
+*/
+
+p { 
+    font-size:30px;
+    margin: 30px 20px;
+    color: #ddd;
+}
+.flowjson {
+    font-size: 16px;
+    font-family: monospace;
+    
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.title h1 {
+    margin-top: 50px;
+    line-height: 100px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.title h2 {
+    color: #aaa;
+    font-size: 34px;
+    padding-left: 30px;
+    
+}
+
+h2 {
+    font-size:34px;
+}
+
+#iot .cloud {
+    padding: 25px;
+    -webkit-transform: translateY(-2000px);
+}
+#iot .cloud1 { -webkit-transition-delay: 1400ms; }
+#iot .cloud2 { -webkit-transition-delay: 1s;     }
+#iot .cloud3 { -webkit-transition-delay: 1200ms; }
+#iot.present .cloud {
+    -webkit-transition-duration: 1s;
+    -webkit-transform: translateY(0px);
+}
+#iot .device {
+    padding: 10px;
+    -webkit-transform: translateY(2000px);
+}
+#iot.present .device {
+    -webkit-transition-duration: 1s;
+    -webkit-transform: translateY(300px);
+}
+#iot .device1 { -webkit-transition-delay: 500ms; }
+#iot .device2 { -webkit-transition-delay: 0ms; }
+#iot .device3 { -webkit-transition-delay: 500ms; }
+#iot .device4 { -webkit-transition-delay: 0ms; }
+#iot .device5 { -webkit-transition-delay: 500ms; }
+#iot .device6 { -webkit-transition-delay: 0ms; }
+
+svg.fadein {
+    opacity: 0;
+}
+svg .link {
+    fill: none;
+    stroke-linejoin: round;
+    stroke: #eee;
+    stroke-width: 5px;
+    stroke-dasharray: 5, 30;
+}
+.present svg.fadein {
+    -webkit-transition-delay: 2s;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-property: opacity;
+    opacity: 1;
+}
+
+#twitter .cloud {
+    -webkit-transition-duration: 800ms;
+    -webkit-transition-property: all;
+    opacity: 0.8;
+}
+#twitter .twitter {
+    -webkit-transform: translateX(-1000px) translateY(100px);
+    -webkit-transition-duration: 800ms;
+    -webkit-transition-property: all;
+    -webkit-transition-delay: 1s;
+}    
+#twitter.present .cloud {
+    -webkit-transform: translateX(-500px) translateY(450px);
+    width: 800px;
+}
+#twitter.present .twitter {
+    -webkit-transform: translateX(-100px) translateY(100px);
+}
+#twitter.present svg {
+    -webkit-transition-delay: 1s;
+}
+
+#apple img {
+    -webkit-transition-duration: 15s;
+    -webkit-transition-property: all;
+    -webkit-transition-delay: 1s;
+}
+#apple.present img {
+    -webkit-transform: translateY(-7800px);
+}
+#rfwsmk {
+    width: 1400px;
+}
+#rfwsmk img {
+    -webkit-transition-duration: 1s;
+    -webkit-transition-property: all;
+    -webkit-transition-delay: 1s;
+    width: 1400px;
+}
+#rfwsmk.present img {
+}
+
+
+.footnote {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 32px;
+    color: #aaa;
+    line-height: 130%;
+    text-align: right;
+}
+
+#pi .link, #pi h1, #flow .link, #flow .node {
+    opacity: 0;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-property: opacity;
+}
+#pi .link1 { -webkit-transition-delay: 500ms; }    
+#pi .link2 { -webkit-transition-delay: 1000ms; }    
+#pi .link3 { -webkit-transition-delay: 1500ms; }    
+
+
+
+#pi.present .link, #pi.present h1, #flow.present .link, #flow.present .node {
+    opacity: 1;
+}
+
+#flow .node1 { -webkit-transition-delay: 0ms; }
+#flow .node2 { -webkit-transition-delay: 1000ms; }
+#flow .node3 { -webkit-transition-delay: 2000ms; }
+#flow .node4 { -webkit-transition-delay: 4000ms; }
+
+#flow .link1 { -webkit-transition-delay: 2500ms; }
+#flow .link2 { -webkit-transition-delay: 2500ms; }
+#flow .link3 { -webkit-transition-delay: 4500ms; }
+
+.flow .node {
+   fill: #676767;
+   stroke: #eee;
+   stroke-width: 3px;
+}
+.flow .port {
+    stroke-width: 2px;
+}
+.flow .node_label {
+    font-size: 20px;
+    fill: #eee;
+}
+
+#yakyak, #yakno, #yakmore, #yakshaving {
+    display: inline-block;
+    -webkit-transition-duration: 2s;
+}
+#yak.present #yakyak {
+    -webkit-transition-delay: 2s;
+    -webkit-transform: translateX(-1300px) rotateZ(-20deg);;
+}
+#yak.present #yakno {
+    -webkit-transition-delay: 2100ms;
+    -webkit-transform: translateX(-1300px) translateY(-1000px) rotateZ(180deg);
+}
+#yak.present #yakmore {
+    -webkit-transition-delay: 2000ms;
+    -webkit-transform: translateX(-1300px) translateY(-1000px) rotateZ(180deg);
+}
+#yak.present #yakshaving {
+    -webkit-transition-delay: 2500ms;
+    -webkit-transform: translateY(1000px) rotateZ(90deg);
+}
+
+
+.node-crawl {
+    padding-left: 20px;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-property: all;
+    -webkit-transform: translateZ(1200px) translateY(1200px) rotateX(45deg);
+    -webkit-transition-duration: 0s;
+}
+#nodelist.present .node-crawl {
+    -webkit-transition-duration: 40s;
+    -webkit-transform: translateZ(-2000px) translateY(-2000px) rotateX(45deg);
+}
+
+.node-crawl * { color: #ff6 !important; }
+
+.message {
+    margin: auto;
+    width: 650px;
+    height: 378px;
+    dborder: 4px solid #eee;
+    dborder-radius: 10px;
+    padding: 0;
+    vertical-align: middle;
+}
+.message div, .message pre {
+    display: inline-block;
+}
+.message div {
+    width: 120px;
+    font-size: 352px;
+    line-height: 352px;
+    position: relative;
+    top: -20px;
+    vertical-align: middle;
+}
+.message pre {
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 398px;
+    padding: 5px;
+    background: none;
+    font-size: 30px;
+    position:relative;
+    left:-30px;
+}
+
+.screen {
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: block;
+    background: #eee;
+    width: 900px;
+    height: 700px;
+    padding: 15px 15px;
+}
+
+pre {
+    color: #fffc99;
+    padding: 10px;
+    font-size: 18px;
+    font-family: monospace;
+    border-radius: 20px;
+    background: #555; /* Old browsers */
+}
+
+.highlight-dim {
+    color: #666;
+}
+
+#function pre {
+    display: inline-block;
+    border-radius: 8px;
+    width: 340px;
+    line-height:50px;
+    height: 50px;
+    margin-bottom: 10px;
+    position: relative;
+}
+#function svg {
+    width: 440px;
+    height: 120px;
+    position: relative;
+    top: 55px;
+}
+#functioncontext svg {
+    width: 800px;
+    height: 140px;
+}
+
+
+
+#overview { display: none }
+
+
+.speakernotes {
+    display: block;
+
+    position: fixed;
+    left: 0;
+    width: 1024px;
+    bottom: 0;
+
+    background: rgba(0,0,0,0.2);
+    color: #EEE;
+    text-align: left;
+
+    font-size: 16px;
+    z-index: 100;
+
+    /*
+        By default we don't want the hint to be visible, so we make it transparent ...
+    */
+    opacity: 1;
+
+}
+
+
+.impress-enabled          { pointer-events: none }
+.impress-enabled #impress { pointer-events: auto }
+

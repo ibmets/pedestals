@@ -1,0 +1,426 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width" />
+<title>Emerging Technology Mobile</title>
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<link type="text/css" href="css/jquery-ui.css" rel="stylesheet"/>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<link type="text/css" href="css/main.css" rel="stylesheet"/>
+ 
+ <script type="text/javascript">
+
+// new git hook test
+
+$(document).ready(function() {	
+	var toolTip = $('.clickToSeeMore');	
+	var lightBox = $('.lightBox');
+	var darkBox = $('.darkBox');
+	var slider = $('.popoverSlider');
+	var current;
+	
+	
+	function shineTooltip() {
+		toolTip.animate({opacity :".3"}, 800, function() { 
+			toolTip.animate({opacity :"1"}, 800, function() { shineTooltip(); });
+		});
+	}
+	
+	$('.elem').click(function() {
+		lightBox.show();
+		darkBox.show();
+		if(current === $(this))
+		{
+			
+			current = $(this);
+		}
+		else {
+			var id = $(this).removeClass('noActive').addClass('active').attr('id').substr(4);
+			if (id == 7) { slider.css('top','46px'); }
+			$('.popover'+id).fadeIn(300);
+			toolTip.stop().fadeOut(400);	
+		}
+		
+	});
+	
+	/*$('.elem').mouseleave(function() {
+		lightBox.hide();
+		$('.popover').fadeOut(200);
+		if (slider.css('top') == '46px') { slider.css('top','-1000px'); }
+		darkBox.hide();
+		$('.animation').find('.active').removeClass('active').addClass('noActive');
+	});
+	*/
+	$('.close').click(function() {
+		lightBox.hide();
+		$('.popover').fadeOut(200);
+		if (slider.css('top') == '46px') { slider.css('top','-1000px'); }
+		darkBox.hide();
+		$('.animation').find('.active').removeClass('active').addClass('noActive');
+	});
+	/*
+	$('.elem').mouseenter(function() {
+		lightBox.show();
+		darkBox.show();
+		var id = $(this).removeClass('noActive').addClass('active').attr('id').substr(4);
+		if (id == 7) { slider.css('top','46px'); }
+		$('.popover'+id).fadeIn(300);
+		toolTip.stop().fadeOut(400);
+	});
+	
+	$('.elem').mouseleave(function() {
+		lightBox.hide();
+		$('.popover').fadeOut(200);
+		if (slider.css('top') == '46px') { slider.css('top','-1000px'); }
+		darkBox.hide();
+		$('.animation').find('.active').removeClass('active').addClass('noActive');
+	});
+	*/
+	shineTooltip();	
+});
+
+ window.onload = function() {
+		
+		$('.elem').each(function(){
+			var randomTop = Math.random()*10000;
+			$(this).css('top','-'+randomTop+'px');
+		});
+		
+		
+		function showBlock(blockNum)
+		{
+			var randomTime = Math.random()*1000;
+			setTimeout(function(){
+				$('.elem'+blockNum).animate({top:'0px'},1100, 'easeOutCubic', function(){
+					if (blockNum == 15 ) {$('.clickToSeeMore').fadeIn(400);}
+				});
+			}, randomTime);
+		}
+		
+		function showBlocks(){
+			for(var i=1; i <= 15; i++){
+				showBlock(i);
+			}
+				
+		}
+		
+		showBlocks();
+	}
+	
+</script>
+</head>
+
+<body>
+
+<section class="content" id="interactivearea">
+<header>
+<h1>IBM Emerging Technology - Mobile</h1>
+<br/>
+<p class="introdescription">The Emerging Technology team collaborates with IBM Research, our product development groups right through to our front line sales force and business development teams. 
+<br/><br/>
+This allows us to tap into a huge depth of knowledge and to deliver Mobile First solutions across multiple industries 
+</p>
+</header>
+<div class="clear"></div>
+<section class="animation">
+
+<div class="clickToSeeMoreBlock"><div class="clickToSeeMore">Click for details</div></div><div class="clear"></div>
+<div class="darkBox close"></div>
+<figure id="elem5" class="elem5 elem noActive dblElem dblElem5"><figcaption>The Mobile Workforce</figcaption><p class="figureDescription">The Emerging Technology group work with IBM's CIO office mobile team to develop innovative solutions</p><div class="miniFigureImage"></div></figure>
+<div class="popover popover5"><div class="cross close"></div><div class="clear"></div>
+<p>The team have been working with the IBM Office of the CIO developing secure first of a kind applications and rolling out services to IBM employee's 100,000 MDM registered devices</p>
+<p>Solutions developed have included apps for VOIP communications, secure browsing and information retrieval.</p>
+</div>
+<div class="popover popover5 popoverstatsimage"></div>
+
+<figure id="elem1" class="elem1 elem noActive"><div class="figureImage"></div><figcaption>Security</figcaption></figure>
+<div class="popover popover1"><div class="cross close"></div><div class="clear"></div>
+<p>The ET team hosts several security experts and can provide guidance and development resource to implement end to end security for Mobile deployments.
+</p> 
+<p>
+We have worked alongside the IBM CIO office to secure mobile deployments and integrate existing identity management systems with IBM products such as Worklight, IBM Endpoint Manager and our recent acquisition MaaS360 from Fiberlink.
+</p>
+<p>
+The ET team are working with CIO and Fiberlink to integrate the MaaS360 container SDK with existing IBM mobile apps.
+<br/><br/> 
+<img height="80" src="images/maas360.gif"/>&nbsp;&nbsp;<img height="80" src="images/worklight.jpg"/>
+</p>
+</div>
+<figure id="elem2" class="elem2 elem noActive"><div class="figureImage"></div><figcaption>Communications</figcaption></figure>
+<div class="popover popover2"><div class="cross close"></div><div class="clear"></div>
+	<p>
+	The IBM Softphone project provides a secure VOIP application to employees.</p>
+	<p>
+	The ability to make free calls when working offsite and travelling to see customers reduces communications costs and allows IBMers without calling plans to make better use of their time rather than putting in expense claims.  
+	</p>
+	<p>
+	Softphone is deployed across 5 different continents and used by 15,000 IBMers.
+	</p>
+	<p>
+	<a href="stel://189">ipad demo</a>
+	</p>
+</div>
+
+<div class="popover popover2 popoverCommsImage">
+</div>
+<div class="popover popover2 popoverCommsImage2">
+</div>
+
+<figure id="elem3" class="elem3 elem noActive"><div class="figureImage"></div><figcaption>Speech interfaces</figcaption></figure>
+<div class="popover popover3"><div class="cross close"></div><div class="clear"></div>
+<p> IBM VANI (Voice Activated Natural Interface) is a joint project between ET the IBM CIO Office and IBM Research. VANI is a mobile app that enables speech querying of the IBM Faces and Answers services, allowing hands free lookup of employee information and voice search of the Answers Q&amp;A service.</p>
+<br/>
+<p>
+Automatic speech recognition and text to speech services are provided by the research iTrans platform service using custom domain specific language models built from information mined from the faces and answers databases.
+</p>
+<br/>
+</div>
+
+<div class="popover popover3 popoverSpeechImage">
+</div>
+<div class="popover popover3 popoverSpeechImage2">
+</div>
+<figure id="elem4" class="elem4 elem noActive"><div class="figureImage"></div><figcaption>Intranet Access</figcaption></figure>
+<div class="popover popover4"><div class="cross close"></div><div class="clear"></div>
+<p>The IBM Secure Browser app for iOS and Android enables employees to securely access corporate Internet sites and networks with no VPN required.
+</p>
+<p>
+ The browser is a result of the Emerging Technology teams collaboration with the IBM CIO office and the IBM Mobile Connect product team.<br/>
+	<br/>
+	The browser is currently in pilot with a group of 1500 users and was used at the 2014 kickoff event by 350 of IBM's top executives.
+</p>
+<p>
+	<a href="ibmhttps://w3-connections.ibm.com">ipad demo</a>
+	</p>
+</div>
+<div class="popover popover4 popoverBrowserImage">
+</div>
+<figure id="elem6" class="elem6 elem noActive"><div class="figureImage"></div><figcaption>Automotive</figcaption></figure>
+<div class="popover popover6"><div class="cross close"></div><div class="clear"></div>
+<p>
+Smarter Commute is a mobile app for Android and iOS allowing car drivers using a smart phone to publish their active route to work on the Smarter Commute website. 
+</p>
+<p>
+Colleagues can see the route, and the car's location, enabling them to stand in a safe place on the route and request a lift. 
+</p>
+<p>
+The driver's smart-phone announces using voice technology that "Jo Smith has requested a lift in 500 meters on Hursley Road" and will display their colleagues image, so they can be recognised. 
+</p>
+<p>
+Shared trips are recorded and savings can be viewed on the Smarter Commute website.
+</p>
+
+
+</div>
+
+<div class="popover popover6 popoverjlr"><div class="cross close"></div><div class="clear"></div>
+<p>
+The Emerging Technology team have worked with major automative companies including Jaguar Landrover to produce mobile apps for a number of purposes including dashboarding sales statistics and creating a car configurator which is visible in the GBS Automotive showcase in Hursley. 
+</p>
+</div>
+
+<div class="popover popover6 popoverCommuteImage"></div>
+
+<div class="popover popover6 popoverdashboardImage"></div>
+
+<figure id="elem7" class="elem7 elem noActive"><div class="figureImage"></div><figcaption>Augmented Reality</figcaption></figure>
+<div class="popover popover7"><div class="cross close"></div><div class="clear"></div>
+<p>
+In collaboration with the University of Sheffield Advanced Manufacturing Research Centre and IBM GBS ETS created a solution to aid engineers in maintenance and repair operations.
+</p>
+<p>
+The mobile system, using a combination of augmented reality and robotics, will help field engineers accurately locate equipment, provide them with critical information and receive real-time visual support from supervising experts based remotely
+</p>
+</div>
+<div class="popover popover7 popoverSlider"><div id="jsbanner">
+<p>
+Farsight is an augmented reality mobile app that can layer configurable realtime information over a realtime view of the world.
+</p>
+<p>
+A combination of GPS positioning and tilt sensors in the phone enable objects to be drawn in realtime on the video display highlighting their position. The use of object recognition or QR codes on physical objects allows additional layers of information relevant to objects to be overlaid on top.
+</p>
+
+</div></div>
+<div class="popover popover7 popoverARImage">
+</div>
+<figure id="elem8" class="elem8 elem  noActive dblElem dblElem8"><figcaption>Our World</figcaption><p class="figureDescription">Mobile offers new ways of interacting with the world around us...</p><div class="miniFigureImage"></div></figure>
+<div class="popover popover8"><div class="cross close"></div><div class="clear"></div>
+<p>The commoditisation of smartphones has brought about a common set of standard sensor functions and services such as geolocation, motion, audio and visual capture effectively turning devices into mobile sensor hubs.
+</p> 
+<p>
+The reach of the device to other sensors in the vicinity has also been increased with the development of bluetooth low energy capabilities and in some cases Near Field Communication (NFC). 
+</p>
+<p>
+The Emerging Technology team are exploring the possibilities
+for a variety of applications including health care, transportation and indoor location.
+</p>
+</div>
+
+<div class="popover popover8 popoverIL"><div class="cross close"></div><div class="clear"></div>
+<p>
+The Emerging Technology team are working with Bluetooth LE technology and WiFi device tracking.  
+</p> 
+<p>
+iBeacons are devices that use Bluetooth Low Energy to emit a signal that can be received by a smartphone without pairing with the device. 
+</p>
+<p>
+iBeacon technology can be used for a number of purposes one of which is indoor location, the smartphones position can be triangulated according to the beacons it can see.
+</p>
+<p>
+iBeacons can also be used purely for proximity detection and can trigger a smartphone app to share some data about it's location, for example a customer with a loyalty app on their phone may be standing at a certain display in store and be sent an offer.
+</p>
+<p>
+</p>
+<p>
+</p>
+</div>
+<div class="popover popover8 popoverestimoteImage"></div>
+
+
+
+<figure id="elem9" class="elem9 elem noActive"><div class="figureImage"></div><figcaption>Health</figcaption></figure>
+<div class="popover popover9"><div class="cross close"></div><div class="clear"></div>
+<p>
+The VoiceBank project addresses the problem of people who have lost their voice through laryngeal cancer, where the voice box is removed.
+</p>
+<br/>
+<p>
+Many patients use a prosthesis or an electrolarynx to communicate, which result in the loss of personality in the person's voice. The technology is also expensive for the NHS.
+</p>
+<br/>
+<p>
+VoiceBank allows a pre-op patient to 'bank' their voice by recording a set of sentences.</p>
+<p> A mobile application with predictive text input is then used post-op to speak using a voice 
+synthesized from the patients recorded samples.
+</p>
+</div>
+<div class="popover popover9 popoverVBImage"></div>
+<div class="popover popover9 popoverVBImage2"></div>
+
+<figure id="elem10" class="elem10 elem noActive"><div class="figureImage"></div><figcaption>Visual Analytics</figcaption></figure>
+<div class="popover popover10"><div class="cross close"></div><div class="clear"></div>
+<p>
+Major retailers face constantly changing environments, and must consider daily variations in consumer demand, manufacturer promotions or holidays to achieve the right arrangement and assortment of products in the store.  
+</p>
+<br/>
+<p>
+
+The Emerging Technology bridged the gap between IBM Research and Tesco to deploy a visual analytics Mobile App to Manage Product Placement 
+</p>
+<br/>
+<p>
+Tesco is testing the IBM solution at a pilot location near London. 
+</p>
+<p>
+<i>“Delivering a better shopping experience to our customers includes making sure products are well stocked and easy to find. The IBM application will help us to improve store operations beyond the current manual processes and barcode-based methods."</i>
+</p> 
+<p>said Mike McNamara, CIO, Tesco.
+
+</p>
+</div>
+<div class="popover popover10 popoverProductImage"></div>
+
+<figure id="elem11" class="elem11 elem dblElem dblElem11 noActive"><figcaption>Integration</figcaption><p class="figureDescription">Mobile technology has many integration points, to be a Mobile First company a sound integration strategy must be adopted.</p><div class="miniFigureImage"></div></figure>
+<!--div class="popover popover11"><div class="cross close"></div><div class="clear"></div>
+<p>
+
+</p>
+</div-->
+<figure id="elem12" class="elem12 elem noActive"><div class="figureImage"></div><figcaption>Messaging</figcaption></figure>
+<div class="popover popover12"><div class="cross close"></div><div class="clear"></div>
+<p>
+The Emerging technology team has a strong background in messaging and a particular afinity with the MQTT publish subscribe messaging system.</p> 
+
+<p>MQTT provides an extremely flexible way 
+of integrating the many sensors and devices together and is a great way of pushing messages securely to mobile devices. 
+</p>
+<p>
+The Universal Information Framework (UIF) uses MQTT messaging to provide a flexible bidirectional messaging platform for connecting back office systems with mobile devices.
+</p>
+<p>
+This secure low power/low bandwidth system is perfect for extending business process flows out to employees in the field.
+</p>
+</div>
+
+<div class="popover popover12 popoverUIFImage"></div>
+
+
+<figure id="elem13" class="elem13 elem noActive"><div class="figureImage"></div><figcaption>Platforms</figcaption></figure>
+<div class="popover popover13"><div class="cross close"></div><div class="clear"></div>
+<p>
+APIs are playing an increasing part in the expansion of traditional enterprise as information becomes a valuable commodity. 
+</p>
+<p>
+Providing a scalable well structured API will keep you a step ahead of competitors or allow your critical data to reach a range of channels including smartphones.
+</p>
+<p>
+On the device side providing SDKs for the most popular platforms will encourage developer adoption. 
+</p>
+<p>
+The ET team have experience in developing SDKs for iOS and Android platforms.
+<br/><br/>
+<img width="50" height="50" src="images/apple.png"/><img width="50" height="50" src="images/android.png"/>
+</p>
+
+</div>
+
+<div class="popover popover13 popover13cloud"><div class="cross close"></div><div class="clear"></div>
+<p>
+IBM have fully committed to Mobile with a raft of portfolio expanding acquisitions including the Worklight platform and the cloud based MDM solution MaaS360 from Fiberlink.  
+</p>
+<p>
+With the acquistion of cloud systems provider Softlayer and our commitment to providing a PaaS platform in the form of bluemix, IBM now provides the platforms
+to securely scale mobile application backends.
+</p>
+<p>
+The ET Mobile team is looking at the development processes and continuous integration steps needed to rapidly create, deploy and manage mobile platforms.
+</p>
+<p>
+ET also have several code contributors to cloudfoundry.org the open source project Bluemix is based upon, positioning us perfectly to make the most of the platform.  
+</p>
+<p>
+<img height= "100" src="images/cloudfoundry.png"/><img  height="100" src="images/bluemix.png"/>
+</p>
+
+</div>
+
+
+<figure id="elem14" class="elem14 elem noActive"><div class="figureImage"></div><figcaption>Hardware</figcaption></figure>
+<div class="popover popover14"><div class="cross close"></div><div class="clear"></div>
+<p>
+The Emerging technology team are unique within IBM in that they can instrument almost anything and use a variety of network and transmission protocols to deliver data to the right place.
+</p>
+<p>
+Smartphones and tablets are the new all purpose integration hub and can be used as both control devices and relays for information from sensors and other mobile devices such as smart watches, fitness bands and other custom made hardware.
+</p>
+
+<p>
+The ET team has had experience in creating custom hardware configurations for various industry settings. Mobile devices can provide the interface to custom hardware and act as a display for information outputs.
+</p>
+<!--p>
+NFC 
+iBeacons
+indoor location
+</p-->
+</div>
+
+<div class="popover popover14 popoverArduinoImage"></div>
+
+<figure id="elem15" class="elem15 elem noActive"><div class="figureImage"></div><figcaption>Collaboration</figcaption></figure>
+<div class="popover popover15"><div class="cross close"></div><div class="clear"></div>
+<p>
+The development of HTML5 brings with it some exciting features not least the inclusion of media capture function previously absent from the JavaScript specification.
+</p>
+<p>
+The ability to capture video and audio without special plugins has opened up the possiblity for a range of collaboration applications that can be adapted for both desktop and mobile formats using the same codebase. 
+</p>
+<p>
+Using WebRTC we are looking to take advantage of these new capabilities to create unified collaboration systems that can seamlessly connect users both on mobile devices and laptops.
+</p>
+</div>
+</section>
+
+</body>
+</html>

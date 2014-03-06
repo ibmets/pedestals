@@ -1,0 +1,139 @@
+{ 
+	"title" : "About ETS",
+	"owner" : "Andy Feltham",
+	"email" : "andy_feltham@uk.ibm.com",
+	"rows" : [ 
+		{ 
+			"content" : [ 
+				{ 
+					"w" : 2,
+					"h" : 1,
+					"html" : "<b>Hello World</b>"
+				},
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Web"
+				},
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Mobile",
+					"icon" : { 
+						"url" : "../../../data/cloud/icons/mobile.png",
+						"width" : "50px" 
+					},
+					"onclick" : "text",
+					"data" : "ets/samples/mobile.json"
+				},
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "IoT",
+					"icon" : { 
+						"url" : "../../../data/cloud/icons/iot.png",
+						"width" : "85px" 
+					},
+					"onclick" : "photos",
+					"data" : "ets/samples/iot.json"
+				},
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "APIs",
+					"icon" : { 
+						"url" : "../../../data/cloud/icons/api.png",
+						"width" : "85px" 
+					},
+					"onclick" : "text",
+					"data" : "ets/samples/apis.json"
+				} 
+			]
+		}, 
+		
+		{
+			"content" : [ 
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Security",
+					"icon" : { 
+						"url" : "../../../data/cloud/icons/security.png",
+						"width" : "75px" 
+					},
+					"onclick" : "demo",
+					"data" : "ets/samples/security.json"
+				},
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Scalability"
+				},
+				{ 
+					"w" : 2,
+					"h" : 1,
+					"html" : "<b>Web</b>"
+				},
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Enhancements"
+				},
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Management",
+					"icon" : { 
+						"url" : "../ET_Ped_icons/management.png",
+						"width" : "85px" 
+					}
+				}
+			]
+		}, 
+		
+		{
+			"content" : [ 
+				{ 
+					"w" : 2,
+					"h" : 1,
+					"html" : "<b>Hello World</b>"
+				},
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Integration",
+					"icon" : { 
+						"url" : "../ET_Ped_icons/integration.png",
+						"width" : "85px" 
+					}
+				},
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Analytics",
+					"icon" : { 
+						"url" : "../ET_Ped_icons/analytics.png",
+						"width" : "85px" 
+					}
+				},
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Data",
+					"icon" : { 
+						"url" : "../ET_Ped_icons/data.png",
+						"width" : "85px" 
+					}
+				},
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Innovation"
+				} 
+			]		
+		}
+	
+	]
+
+
+}

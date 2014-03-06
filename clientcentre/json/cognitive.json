@@ -1,0 +1,65 @@
+{
+	"owner" : "Andy Feltham",
+	"email" : "andy_feltham@uk.ibm.com",
+	"css" : "data/cognitive/cognitive.css",
+    "rows" : [
+		{
+			"content" : [{
+				"w" : 5,
+				"h" : 2,
+				"image":"data/cognitive/content/cog2.png",
+				"imageWidth":"100%",
+				"imageHeight":"100%"
+			},
+			{
+				"w" : 1,
+				"h" : 2,
+				"onclick" : "text",
+				"data" : "cognitive/chmr/chmr.json",
+				"title" : "Collaborative Reasoning",
+				"image":"data/cognitive/chmr/content/CEreason.png",
+				"imageWidth":"100%",
+				"imageStyle":"transform: rotate(-10deg) translateX(10px) scale(0.8);"
+			}]
+		},
+		{
+			"content" : []
+		},
+		{
+			"content" : [
+
+                {
+                    "w" : 2,
+                    "h" : 1,
+                    "onclick" : "text",
+					"data" : "cognitive/watson/watson.json",
+					"fontRatio": 16,
+					"title": "Watson Tooling",
+					"image":"data/cognitive/watson/content/watson_icon2.png",
+					"imageWidth":"100%",
+					"imageHeight":"100%"
+				},
+
+                {
+					"w" : 2,
+					"h" : 1,
+                    "onclick" : "text",
+					"data" : "cognitive/wea/wea.json",
+					"fontRatio": 16,
+					"title": "Watson Engagement Advisor",
+					"image":"data/cognitive/wea/content/hudson.png",
+					"imageWidth":"100%"
+                },
+
+				{
+					"w" : 2,
+					"h" : 1,
+					"image":"data/cognitive/content/cognitive-systems.jpg",
+					"imageWidth":"100%",
+					"imageHeight":"100%"
+                }
+
+			]
+		}
+	]
+}

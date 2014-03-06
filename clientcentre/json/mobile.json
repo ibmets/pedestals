@@ -1,0 +1,282 @@
+{
+	"owner" : "Robert Smart",
+	"email" : "smartrob@uk.ibm.com",
+	"css" : "data/mobile/mobile.css",
+	"rows" : [ 
+        { 
+			"content" : [ 
+				{ 
+					"w" : 5,
+					"h" : 2,
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/mobile/content/backgrounds/main.png\" style=\"height: 100%; display: block;\"></div>",
+                    "title":""
+                    
+				},
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Visual Analytics",
+					"icon" : { 
+						"url" : "../../../data/mobile/content/backgrounds/insightful.png",
+						"width" : "85px" 
+					},
+					"onclick" : "text",
+					"data" : "mobile/analytics.json"
+				} 
+            ]
+        },
+        { 
+			"content" : [ 
+                { 
+					"w" : 1,
+					"h" : 1,
+                    "ow":5,
+                    "title" : "Integration",
+					"icon" : { 
+						"url" : "../../../data/mobile/content/backgrounds/customer-engagement-image.png",
+						"width" : "85px" 
+                        },
+					"onclick" : "text",
+					"data" : "mobile/ourworld.json"
+                }
+            ]
+        }
+        ,
+        { 
+			"content" : [ 
+            
+				{ 
+					"w" : 2,
+					"h" : 1,
+					
+                    "html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/mobile/content/backgrounds/ipadback.jpg\" style=\"height: 100%; display: block;\"></div>",
+					"onclick" : "text",
+                    "title": "The Mobile Workforce",
+                    "fontRatio": 14,
+					"data" : "mobile/workforce.json"
+                },
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Secure Apps",
+					"icon" : { 
+						"url" : "../../../data/mobile/content/backgrounds/security.png",
+						"width" : "85px" 
+					},
+					"onclick" : "text",
+					"data" : "mobile/datasecurity.json"
+				},
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Collaboration",
+					"icon" : { 
+						"url" : "../../../data/mobile/content/backgrounds/collaboration.png",
+						"width" : "85px" 
+					},
+					"onclick" : "text",
+					"data" : "mobile/collaboration.json"
+				},
+				
+				{ 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Health",
+					"icon" : { 
+						"url" : "../../../data/mobile/content/backgrounds/health.png",
+						"width" : "85px" 
+					},
+					"onclick" : "text",
+					"data" : "mobile/health.json"
+                    },
+                    
+                     { 
+					"w" : 1,
+					"h" : 1,
+					"title" : "Speech interfaces",
+					"icon" : { 
+						"url" : "../../../data/mobile/content/backgrounds/watson.png",
+						"width" : "85px" 
+					},
+					"onclick" : "text",
+					"data" : "mobile/speech.json"
+                }
+            ]
+        }
+	
+	],
+    "oldrows" : [
+        { 
+			"content" : [ 
+				{ 
+					"w" : 2,
+					"h" : 1,
+					"title": "The Mobile Workforce",
+					"url" : "data/mobile/content/workforce.html",
+					"onclick" : "text",
+					"fontRatio": 14,
+					"data" : "mobile/workforce.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Security",
+					"icon" : {
+						"url" : "../../../data/mobile/icons/Lock.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "mobile/security.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Communications",
+					"icon" : {
+						"url" : "../../../data/mobile/icons/Telephone.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "mobile/comms.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Speech interfaces",
+					"icon" : {
+						"url" : "../../../data/mobile/icons/Voice.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "mobile/speech.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Secure Apps",
+					"icon" : {
+						"url" : "../../../data/mobile/icons/Apps.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "mobile/datasecurity.json"
+				}
+			]
+		},
+
+		{
+			"content" : [
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Automotive",
+					"icon" : {
+						"url" : "../../../data/mobile/icons/Car.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "mobile/automotive.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Augmented Reality",
+					"icon" : {
+						"url" : "../../../data/mobile/icons/TabletWifi.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "mobile/augmented.json"
+				},
+				{
+					"w" : 2,
+					"h" : 1,
+					"url" : "data/mobile/content/ourWorld.html",
+					"onclick" : "text",
+					"data" : "mobile/ourworld.json",
+					"fontRatio": 14,
+					"title": "Our World"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Health",
+					"icon" : {
+						"url" : "../../../data/mobile/icons/HealthcareWorker.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "mobile/health.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Visual Analytics",
+					"icon" : {
+						"url" : "../../../data/mobile/icons/Monitor3.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "mobile/analytics.json"
+				}
+			]
+		},
+
+		{
+			"content" : [
+				{
+					"w" : 2,
+					"h" : 1,
+					"url" : "data/mobile/content/integration.html",
+					"fontRatio": 14,
+					"title": "Integration"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Messaging",
+					"icon" : {
+						"url" : "../../../data/mobile/icons/TextMessage1.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "mobile/messaging.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Platforms",
+					"icon" : {
+						"url" : "../../../data/mobile/icons/Tools.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "mobile/platforms.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Hardware",
+					"icon" : {
+						"url" : "../../../data/mobile/icons/Chip.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "mobile/hardware.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Collaboration",
+					"icon" : {
+						"url" : "../../../data/mobile/icons/Chat.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "mobile/collaboration.json"
+				} 
+			]		
+            }
+    ]
+}
+

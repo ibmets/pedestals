@@ -1,0 +1,39 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 0,
+			"oh" : 0,
+			"url" : "data/smarterplanet/content/gaian1.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 3,
+			"oh" : 2,
+			"url" : "data/smarterplanet/content/gaian2.html"
+		},
+		{
+			"w" : 3,
+			"h" : 2,
+			"ow" : 0,
+			"oh" : 1,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Gaian_Database_Mesh.png",
+			"imageWidth":"100%",
+			"imageHeight":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 3,
+			"oh" : 1,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Gaian_Database.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		}
+	]
+}

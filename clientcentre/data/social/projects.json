@@ -1,0 +1,70 @@
+{
+	"sections" : [
+		{
+			"w" : 5,
+			"h" : 1,
+			"ow" : 0,
+			"oh" : 1,
+			"url" : "data/social/content/projects.html"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"oh" : 0,
+			"ow" : 0,
+			"onclick" : "nestedtext",
+			"title": "Wimbledon 2014",
+			"fontRatio": 16,
+			"data" : "social/wimbledon.json",
+			"url" : "data/social/content/proj_wimb.html"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"oh" : 0,
+			"ow" : 4,
+			"onclick" : "nestedtext",
+			"data" : "social/trendification.json",
+			"title": "Trendification",
+			"fontRatio": 16,
+			"url" : "data/social/content/proj_trend.html"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"ow" : 2,
+			"oh" : 0,
+			"onclick" : "nestedtext",
+			"data" : "social/storytelling.json",
+			"title": "Storytelling",
+			"fontRatio": 16,
+			"url" : "data/social/content/proj_story.html"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"oh" : 1,
+			"ow" : 5,
+			"onclick" : "nestedtext",
+			"data" : "social/cape.json",
+			"title": "Context Aware Personal Environment",
+			"url" : "data/social/content/proj_cape.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 0,
+			"oh" : 2,
+			"title": "Sentinel: Analysis of NATO Summit 2014",
+			"fontRatio": 24,
+			"url" : "data/social/content/proj_sentinel.html"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 3,
+			"oh" : 2,
+			"url" : "data/social/content/proj_meedan.html"
+		}
+	]
+}

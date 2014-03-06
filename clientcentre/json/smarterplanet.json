@@ -1,0 +1,169 @@
+{
+	"owner" : "Chris Gibson",
+	"email" : "christopher_gibson@uk.ibm.com",
+	"css" : "data/smarterplanet/smarterplanet.css",
+	"rows" : [
+		{
+			"content" : [
+				{
+					"w" : 2,
+					"h" : 1,
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/smarterplanet/icons/instrumented2.jpg\" style=\"width: 100%;height:100%; display: block;\"><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div></div>",
+					"onclick" : "text",
+					"title": "Instrumented",
+					"fontRatio": 12,
+					"data" : "smarterplanet/instrumented.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Hardware",
+
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/smarterplanet/icons/hardware2.png\" style=\"width: 100%;height:100%; display: block;\"><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div></div>",
+					"onclick" : "text",
+					"data" : "smarterplanet/hardware.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Indoor Location",
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/smarterplanet/icons/indoor2.png\" style=\"width: 100%;height:100%; display: block;\"><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div></div>",
+					"onclick" : "text",
+					"data" : "smarterplanet/location.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Standards",
+					"icon" : {
+						"url" : "../../../data/smarterplanet/icons/standards.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "smarterplanet/standards.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Privacy",
+					"icon" : {
+						"url" : "../../../data/smarterplanet/icons/privacy.png",
+						"width" : "50px"
+					},
+					"onclick" : "text",
+					"data" : "smarterplanet/privacy.json"
+				}
+			]
+		},
+
+		{
+			"content" : [
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Node-RED",
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/smarterplanet/icons/node-red.png\" style=\"width: 100%;height:100%; display: block;\"><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div></div>",
+					"onclick" : "text",
+					"data" : "smarterplanet/nodered.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Edgware Fabric",
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/smarterplanet/icons/edgware_logo.png\" style=\"width: 100%;height:100%; display: block;\"><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div></div>",
+					"onclick" : "text",
+					"data" : "smarterplanet/fabric.json"
+				},
+				{
+					"w" : 2,
+					"h" : 1,
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/smarterplanet/icons/interconnected2.jpg\" style=\"width: 100%;height:100%; display: block;\"><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div></div>",
+					"onclick" : "text",
+					"title": "Interconnected",
+					"fontRatio": 12,
+					"data" : "smarterplanet/interconnected.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Gaian Database",
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/smarterplanet/icons/gaian.png\" style=\"width: 100%;height:100%; display: block;\"><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div></div>",
+					"onclick" : "text",
+					"data" : "smarterplanet/gaian.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Industry 4.0",
+					"icon" : {
+						"url" : "../../../data/smarterplanet/icons/industry40.jpg",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "smarterplanet/industry40.json"
+				}
+			]
+		},
+
+		{
+			"content" : [
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Augmented Reality",
+					"icon" : {
+						"url" : "../../../data/smarterplanet/icons/augmented.png",
+						"width" : "50px"
+					},
+					"onclick" : "text",
+					"data" : "smarterplanet/ar.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Virtual Reality",
+					"icon" : {
+						"url" : "../../../data/smarterplanet/icons/virtualreality.png",
+						"width" : "50px"
+					},
+					"onclick" : "text",
+					"data" : "smarterplanet/vr.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Healthcare",
+					"icon" : {
+						"url" : "../../../data/smarterplanet/icons/HealthcareWorker.png",
+						"width" : "50px"
+					},
+					"onclick" : "text",
+					"data" : "smarterplanet/healthcare.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Travel and Transport",
+					"icon" : {
+						"url" : "../../../data/smarterplanet/icons/Car.png",
+						"width" : "50px"
+					},
+					"onclick" : "text",
+					"data" : "smarterplanet/transport.json"
+				},
+				{
+					"w" : 2,
+					"h" : 1,
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/smarterplanet/icons/intelligent2.jpg\" style=\"width: 100%;height:100%; display: block;\"><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div></div>",
+					"onclick" : "text",
+					"title": "Intelligent",
+					"fontRatio": 12,
+					"data" : "smarterplanet/intelligent.json"
+				}
+			]
+		}
+
+	]
+
+
+}

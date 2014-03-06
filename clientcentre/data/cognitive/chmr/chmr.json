@@ -1,0 +1,88 @@
+{
+	"sections" : [
+		{
+			"w" : 2,
+			"h" : 1.5,
+			"oh" : 0,
+			"ow" : 0,
+			"url" : "data/cognitive/chmr/content/chmr1.html"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"oh" : 1,
+			"ow" : 2,
+			"url" : "data/cognitive/chmr/content/chmr2.html"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"oh" : 2,
+			"ow" : 4,
+			"url" : "data/cognitive/chmr/content/chmr3.html"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"oh" : 0,
+			"ow" : 2,
+			"nobackground" : true,
+			"image":"data/cognitive/chmr/content/CEreason.png",
+			"imageWidth":"100%",
+			"imageStyle":"transform: rotate(-10deg) translateX(20px);",
+			"onclick": "image"
+		},
+		{
+			"w" : 2,
+			"h" : 0.5,
+			"oh" : 1.5,
+			"ow" : 0,
+			"nobackground" : true,
+			"image":"data/cognitive/chmr/content/scheme.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"oh" : 2,
+			"ow" : 0,
+			"nobackground" : true,
+			"image":"data/cognitive/chmr/content/map1.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"oh" : 0,
+			"ow" : 4,
+			"nobackground" : true,
+			"image":"data/cognitive/chmr/content/system.png",
+			"imageWidth":"100%",
+			"imageHeight":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"oh" : 1,
+			"ow" : 4,
+			"nobackground" : true,
+			"image":"data/cognitive/chmr/content/ag.png",
+			"imageHeight":"100%",
+			"imageStyle": "transform: rotate(-10deg) translateX(0px);",
+			"onclick": "image"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"oh" : 2,
+			"ow" : 2,
+			"nobackground" : true,
+			"image":"data/cognitive/chmr/content/reasonGraph.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		}
+	]
+}

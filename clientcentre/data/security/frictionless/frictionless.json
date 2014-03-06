@@ -1,0 +1,19 @@
+{
+	"sections" : [
+		{
+			"w" : 3,
+			"h" : 2.2,
+			"oh" : 0.5,
+            "ow" : 3,
+			"url" : "data/security/frictionless/content/frictionless1.html"
+		} ,
+        {
+            "w" : 3,
+            "h" : 2,
+			"image":"data/security/frictionless/content/screenshot.png",
+			"imageWidth":"100%",
+			"imageHeight":"100%",
+			"onclick": "image"
+		}
+	]
+}

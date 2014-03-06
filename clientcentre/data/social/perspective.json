@@ -1,0 +1,42 @@
+{
+	"sections" : [
+		{
+			"w" : 2,
+			"h" : 2,
+			"url" : "data/social/content/vision2.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 2,
+			"url" : "data/social/content/vision1.html"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 2,
+			"oh" : 1,
+			"url" : "data/social/content/perspective5.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 3,
+			"oh" : 1,
+			"url" : "data/social/content/perspective1.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"oh" : 2,
+			"url" : "data/social/content/perspective2.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow": 3,
+			"oh" : 2,
+			"url" : "data/social/content/vision3.html"
+		}
+	]
+}

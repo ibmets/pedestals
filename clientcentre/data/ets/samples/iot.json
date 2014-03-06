@@ -1,0 +1,43 @@
+{ 
+	"description" : "This is a description about the image set.<br><br>It can contain HTML such as <b>bold</b>, <u>underline</u> etc.",
+	"icon" : "",
+	"photos" : [ 
+		{ 
+			"url" : "cloud/photos/iot/image1.png", 
+			"title" : "First image",
+			"description" : "This is the description of the first image"
+		},
+		{ 
+			"url" : "cloud/photos/iot/image2.png", 
+			"title" : "Second image",
+			"description" : "This is the description of the first image"
+		},
+		{ 
+			"url" : "cloud/photos/iot/image3.png",
+			"title" : "First image",
+			"description" : "This is the description of the first image"
+		},
+		{ 
+			"url" : "cloud/photos/iot/image4.png",
+			"title" : "First image",
+			"description" : "This is the description of the first image"
+		},
+		{ 
+			"url" : "cloud/photos/iot/image5.jpg",
+			"title" : "First image",
+			"description" : "This is the description of the first image"
+		},
+		{ 
+			"url" : "cloud/photos/iot/image6.jpg",
+			"title" : "First image",
+			"description" : "This is the description of the first image"
+		},
+		{ 
+			"url" : "cloud/photos/iot/image7.jpg",
+			"title" : "First image",
+			"description" : "This is the description of the first image"
+		}
+		
+	]
+
+}

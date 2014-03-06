@@ -1,0 +1,35 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3,
+			"h" : 1,
+			"url" : "data/social/content/trend1.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"oh" : 1,
+			"url" : "data/social/content/trend2.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"oh" : 2,
+			"url" : "data/social/content/trend3.html"
+		},
+		{
+			"w" : 1,
+			"h" : 2,
+			"ow" : 3,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/social/images/very.png\" style=\"width: 100%;\"></div>",
+			"nobackground" : true
+		}, 
+		{
+			"w" : 1,
+			"h" : 1,
+			"oh" : 2,
+			"ow" : 4,
+			"html" : "<div style=\"height: 100%; width: 100%; \" onclick=\"$('.selectedItem').css('background', ''); $('.selectedItem').removeClass('selectedItem'); $('.overlay .cellContainer').css('opacity', ''); $('.currentPage').append ( $('.overlay .cellContainer') ); clearOverlay( function () { openDemo('http://etsvc02.hursley.ibm.com/cc/pedestals/social/video/very.mp4'); } );\"><div class=\"cellTitle2\">Video</div><div class=\"cellIcon\"><center><img src=\"css/images/play.png\" style=\"width: 50px;  padding-top: 10%;\"></center></div></div>"
+		}
+	]
+}

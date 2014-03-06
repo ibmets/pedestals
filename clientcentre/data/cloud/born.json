@@ -1,0 +1,48 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 4,
+			"h" : 1,
+			"ow" : 2,
+			"url" : "data/cloud/content/born-content.html"
+		},
+        {
+			"w" : 2,
+			"h" : 1,
+            "oh" : 1,
+			"ow" : 0,
+			"url" : "data/cloud/content/tangerine.html"
+        }
+        ,
+        {
+            "oh" : 1,
+            "ow" : 2,
+			"w" : 2,
+			"h" : 1,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/cloud/content/tangerine.png\" style=\"width: 100%;height: 100%;\"></div>"
+        }
+        ,
+        {
+			"oh" : 1,
+			"w" : 2,
+			"h" : 2,
+			"ow" : 4,
+			"url" : "data/cloud/content/drivers.html"
+        }
+        ,
+        {
+			"oh" : 2,
+			"w" : 2,
+			"h" : 1,
+			"ow" : 2,
+			"url" : "data/cloud/content/eyeq.html"
+            },
+        {
+            "oh" : 2,
+			"w" : 2,
+			"w" : 2,
+			"h" : 1,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/cloud/content/eyeq.png\" style=\"width: 100%;height: 100%;\"></div>"
+        }
+	]
+}

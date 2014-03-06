@@ -1,0 +1,73 @@
+{
+	"title" : "Social Business",
+	"owner" : "David Braines",
+	"email" : "dave_braines@uk.ibm.com",
+	"css" : "data/social/social.css",
+	"rows" : [
+		{
+			"content" : [
+				{
+					"w" : 5,
+					"h" : 2,
+					"title" : "",
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/social/images/social_bus_banner.png\" style=\"height: 100%; display: block;\"></div>"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "ETS Perspective",
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/social/images/ibm_vision.png\" style=\"width: 100%; display: block;\"></div>",
+					"onclick" : "text",
+					"data" : "social/perspective.json"
+				}
+			]
+		},
+		{
+			"content" : [
+				{
+					"w" : 1,
+					"h" : 1,
+					"ow" : 5,
+					"title" : "Our Research",
+					"onclick" : "text",
+					"data" : "social/research.json",
+					"icon" : {
+						"url" : "../../../data/social/images/our_research.png",
+						"width" : "85px"
+					}
+				}
+			]
+		},
+		{
+			"content" : [
+				{
+					"w" : 2,
+					"h" : 1,
+					"title" : "Social Media Analytics",
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/social/images/social_media_analytics2.png\" style=\"width: 102%; display: block;\"></div>",
+					"onclick" : "text",
+					"fontRatio": 12,
+					"data" : "social/analytics.json"
+				},
+				{
+					"w" : 2,
+					"h" : 1,
+					"title" : "Inspirations",
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/social/images/inspirations2.png\" style=\"width: 102%; display: block; margin: auto auto;\"></div>",
+					"onclick" : "text",
+					"fontRatio": 12,
+					"data" : "social/inspiration.json"
+				},
+				{
+					"w" : 2,
+					"h" : 1,
+					"title" : "Our Projects",
+					"html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/social/images/our_projects2.png\" style=\"width: 102%; display: block; margin: auto auto;\"></div>",
+					"onclick" : "text",
+					"fontRatio": 12,
+					"data" : "social/projects.json"
+				}
+			]
+		}
+	]
+}

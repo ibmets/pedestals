@@ -1,0 +1,25 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 2,
+			"oh" : 0,
+			"url" : "data/smarterplanet/content/instrumented-content1.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 2,
+			"oh" : 1,
+			"url" : "data/smarterplanet/content/instrumented-content2.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 2,
+			"oh" : 2,
+			"url" : "data/smarterplanet/content/instrumented-content3.html"
+		}
+	]
+}

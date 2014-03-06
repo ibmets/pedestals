@@ -1,0 +1,56 @@
+{
+	"sections" : [
+		{
+			"w" : 3,
+			"h" : 1,
+			"url" : "data/cognitive/watson/content/watson1.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"oh" : 2,
+			"ow" : 3,
+			"url" : "data/cognitive/watson/content/watson2.html"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"oh" : 0,
+			"ow" : 4,
+			"nobackground" : true,
+			"image":"data/cognitive/watson/content/jeopardy.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"oh" : 1,
+			"ow" : 1,
+			"nobackground" : true,
+			"image":"data/cognitive/watson/content/tooling1.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"oh" : 1,
+			"ow" : 2,
+			"nobackground" : true,
+			"image":"data/cognitive/watson/content/tooling2.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"oh" : 1,
+			"ow" : 3,
+			"nobackground" : true,
+			"image":"data/cognitive/watson/content/tooling3.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		}
+	]
+}

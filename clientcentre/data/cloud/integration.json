@@ -1,0 +1,11 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3,
+			"h" : 2,
+			"ow" : 3,
+			"oh" : 1,
+			"url" : "data/cloud/content/integration.html"
+		}
+	]
+}

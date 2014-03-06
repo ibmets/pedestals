@@ -1,0 +1,18 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 2,
+			"h" : 1,
+			"ow" : 0,
+			"oh" : 1,
+			"url" : "data/smarterplanet/content/interconnected-content1.html"
+		},
+		{
+			"w" : 4,
+			"h" : 1,
+			"ow" : 2,
+			"oh" : 2,
+			"url" : "data/smarterplanet/content/interconnected-content2.html"
+		}
+	]
+}

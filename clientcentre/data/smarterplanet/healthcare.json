@@ -1,0 +1,50 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3,
+			"h" : 2,
+			"ow" : 3,
+			"url" : "data/smarterplanet/content/healthcare.html"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 1,
+			"oh" : 2,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Aeon_Labs_Z-Wave_Multisensor.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 3,
+			"h" : 2,
+			"ow" : 0,
+			"oh" : 0,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/CurrentCare.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 3,
+			"oh" : 2,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Bolzano-Analytics.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 0,
+			"oh" : 2,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Raspberry_Pi.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		}
+	]
+}

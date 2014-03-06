@@ -1,0 +1,29 @@
+{
+	"sections" : [
+		{
+			"w" : 2,
+			"h" : 2,
+			"oh" : 0,
+            "ow" : 0,
+			"url" : "data/cognitive/wea/content/wea1.html"
+		},
+		{
+			"w" : 2,
+			"h" : 2,
+			"oh" : 1,
+            "ow" : 4,
+			"url" : "data/cognitive/wea/content/wea2.html"
+		},
+		{
+			"w" : 2,
+			"h" : 2,
+			"oh" : 0,
+            "ow" : 2,
+            "nobackground" : true,
+			"image":"data/cognitive/wea/content/hudson.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		}
+
+	]
+}

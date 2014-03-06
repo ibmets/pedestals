@@ -1,0 +1,183 @@
+{
+	"owner" : "Andy Feltham",
+	"email" : "andy_feltham@uk.ibm.com",
+	"css" : "data/cloud/cloud.css",
+	"rows" : [
+		{
+			"content" : [
+				{
+					"w" : 2,
+					"h" : 1,
+					"title": "Born on the cloud",
+					"html" : "<div class=\"bornBG\" style=\"min-height: 100%\"></div>",
+					"onclick" : "text",
+					"fontRatio": 12,
+					"data" : "cloud/born.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Web",
+					"icon" : {
+						"url" : "../../../data/cloud/icons/web.png",
+						"width" : "50px"
+					},
+					"onclick" : "text",
+					"data" : "cloud/web.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Mobile",
+					"icon" : {
+						"url" : "../../../data/cloud/icons/mobile.png",
+						"width" : "50px"
+					},
+					"onclick" : "text",
+					"data" : "cloud/mobile.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "IoT",
+					"icon" : {
+						"url" : "../../../data/cloud/icons/iot.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "cloud/iot.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "APIs",
+					"icon" : {
+						"url" : "../../../data/cloud/icons/api.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "cloud/apis.json"
+				}
+			]
+		},
+
+		{
+			"content" : [
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Security",
+					"icon" : {
+						"url" : "../../../data/cloud/icons/security.png",
+						"width" : "75px"
+					},
+					"onclick" : "text",
+					"data" : "cloud/security.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Performance",
+					"icon" : {
+						"url" : "../../../data/cloud/icons/performance.png",
+						"width" : "50px"
+					},
+					"onclick" : "text",
+					"data" : "cloud/performance.json"
+				},
+				{
+					"w" : 2,
+					"h" : 1,
+					"html" : "<div class=\"runBG\" style=\"min-height: 100%\"></div>",
+					"title": "Run on the Cloud",
+					"fontRatio": 12,
+					"onclick" : "text",
+					"data" : "cloud/run.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Enhancements",
+					"icon" : {
+						"url" : "../../../data/cloud/icons/enhancments.png",
+						"width" : "50px"
+					},
+					"onclick" : "text",
+					"data" : "cloud/enhancements.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Management",
+					"icon" : {
+						"url" : "../../../data/cloud/icons/management.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "cloud/management.json"
+				}
+			]
+		},
+
+		{
+			"content" : [
+				{
+					"w" : 2,
+					"h" : 1,
+					"html" : "<div class=\"deliveredBG\" style=\"min-height: 100%\"></div>",
+					"title": "Delivered on the Cloud",
+					"fontRatio": 12,
+					"onclick" : "text",
+					"data" : "cloud/delivered.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Integration",
+					"icon" : {
+						"url" : "../../../data/cloud/icons/integration.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "cloud/integration.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Analytics",
+					"icon" : {
+						"url" : "../../../data/cloud/icons/analytics.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "cloud/analytics.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Data",
+					"icon" : {
+						"url" : "../../../data/cloud/icons/data.png",
+						"width" : "85px"
+					},
+					"onclick" : "text",
+					"data" : "cloud/data.json"
+				},
+				{
+					"w" : 1,
+					"h" : 1,
+					"title" : "Innovation",
+					"icon" : {
+						"url" : "../../../data/cloud/icons/innovation.png",
+						"width" : "50px"
+					},
+					"onclick" : "text",
+					"data" : "cloud/innovation.json"
+				}
+			]
+		}
+
+	]
+
+
+}

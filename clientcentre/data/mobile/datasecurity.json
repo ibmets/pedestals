@@ -1,0 +1,31 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3,
+			"h" : 2,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/bluejot_ipad.png\" style=\"height:99%;width: 100%;\"></div>",
+			"nobackground" : true
+		},
+		{
+			"w" : 2,
+			"h" : 4,
+			"ow" : 3,
+			"url" : "data/mobile/content/datasecurity.html"
+		}
+        ,
+        {
+			"w" : 1,
+			"h" : 2,
+            "ow": 5,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/bluejotiphone.png\" style=\"width: 100%;\"></div>",
+			"nobackground" : true
+		},
+        {
+        "w" : 1.5,
+        "h" : 1.5,
+        "oh": 1.9,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/w3browser.png\" style=\"width: 100%;\"></div>",
+			"nobackground" : true
+        }
+	]
+}

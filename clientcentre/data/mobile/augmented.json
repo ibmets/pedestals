@@ -1,0 +1,25 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 4,
+			"h" : 1,
+			"ow" : 2,
+			"url" : "data/mobile/content/aug1.html"
+		},
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 2,
+			"oh" : 1,
+			"url" : "data/mobile/content/aug2.html"
+		},
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 4,
+			"oh" : 1,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/ibn-mro-3.jpg\" style=\"width: 100%;\"></div>",
+			"nobackground" : true
+		}
+	]
+}

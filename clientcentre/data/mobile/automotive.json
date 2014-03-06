@@ -1,0 +1,33 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3,
+			"h" : 2,
+			"ow" : 1,
+			"url" : "data/mobile/content/auto1.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 1,
+			"oh" : 2,
+			"url" : "data/mobile/content/auto2.html"
+			
+		},
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 4,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/smartercommute.png\" style=\"height: 100%;\"></div>",
+			"nobackground" : true
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"ow" : 4,
+			"oh" : 2,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/jlrmock.jpg\" style=\"height: 100%;\"></div>",
+			"nobackground" : true
+		}
+	]
+}

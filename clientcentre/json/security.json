@@ -1,0 +1,91 @@
+{
+	"owner" : "Andy Feltham",
+	"email" : "andy_feltham@uk.ibm.com",
+    "css" : "data/security/security.css",
+	"rows" : [
+		{
+			"content" : [
+
+            {
+                "w" : 4,
+                "h" : 2,
+                "html" : "<div style=\"height: 100%; width: 100%; overflow: hidden;\"><img src=\"data/security/content/sec2.png\" style=\"width: 100%;height:100%; display: block;><div style=\"display: block;position: absolute;right: 7%;bottom: 5%;\"></div></div>"
+
+				},
+				{
+					"w" : 2,
+					"h" : 1,
+                    "onclick" : "text",
+					"data" : "security/fhe/fhe.json",
+                    "icon" : {
+						"url" : "../../../data/security/fhe/content/ring.png",
+						"width" : "85px"
+					},
+					"fontRatio": 16,
+					"title": "Fully Homomorphic Encryption"
+                }
+			]
+		},
+		{
+			"content" : [
+			    {
+					"w" : 2,
+					"h" : 1,
+                    "ow" : 4,
+                    "onclick" : "text",
+					"data" : "security/genome/genome.json",
+                    "icon" : {
+						"url" : "../../../data/security/genome/content/DNA.jpg",
+						"width" : "85px"
+					},
+					"fontRatio": 16,
+					"title": "Genome Privacy"
+                }
+			]
+		}
+        ,
+		{
+			"content" : [
+
+                {
+                    "w" : 2,
+                    "h" : 1,
+                    "onclick" : "text",
+					"data" : "security/frictionless/frictionless.json",
+                    "icon" : {
+                         
+                         "url" : "../../../data/security/frictionless/content/logo-large.png",
+						"width" : "100%"
+					},
+					"fontRatio": 16,
+					"title": "Frictionless Identification"
+				},
+                {
+                    "w" : 2,
+                    "h" : 1,
+                    "onclick" : "text",
+					"data" : "security/mobileSecurity/mobileSecurity.json",
+                    "icon" : {
+						"url" : "../../../data/security/mobileSecurity/content/phone+lock.jpg",
+						"width" : "85px"
+					},
+					"fontRatio": 16,
+					"title": "Mobile Security"
+				},
+				{
+                    "w" : 2,
+                    "h" : 1,
+                    "onclick" : "text",
+					"data" : "security/biometrics/biometrics.json",
+                    "icon" : {
+						"url" : "../../../data/security/biometrics/content/monitor.jpg",
+						"width" : "85px"
+					},
+					"fontRatio": 16,
+					"title": "Biometrics"
+                }
+
+			]
+		}
+	]
+}

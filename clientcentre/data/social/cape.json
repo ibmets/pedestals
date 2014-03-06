@@ -1,0 +1,28 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3,
+			"h" : 1,
+			"url" : "data/social/content/cape1.html"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"ow" : 3,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/social/images/cape_frag.png\" style=\"width: 100%;\"></div>"
+		},
+		{
+			"w" : 5,
+			"h" : 1,
+			"oh" : 1,
+			"url" : "data/social/content/cape2.html"
+		},
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 3,
+			"oh" : 2,
+			"url" : "data/social/content/cape3.html"
+		}
+	]
+}

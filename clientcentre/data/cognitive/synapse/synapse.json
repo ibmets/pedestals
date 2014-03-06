@@ -1,0 +1,45 @@
+{
+	"sections" : [
+		{
+			"w" : 2,
+			"h" : 1,
+			"oh" : 0,
+            "ow" : 0,
+			"url" : "data/cognitive/synapse/content/synapse1.html"
+		},
+		{
+			"w" : 4,
+			"h" : 1,
+			"oh" : 1,
+            "ow" : 2,
+			"url" : "data/cognitive/synapse/content/synapse2.html"
+		},
+        {
+			"w" : 2,
+			"h" : 1,
+			"oh" : 2,
+            "ow" : 0,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%; text-align: center;\"  onclick=\"$('.selectedItem').css('background', ''); $('.selectedItem').removeClass('selectedItem'); $('.overlay .cellContainer').css('opacity', ''); $('.currentPage').append ( $('.overlay .cellContainer') ); clearOverlay( function () { openDemo('https://www.youtube.com/embed/pYJgqd3g6Ks'); } );\"><img src=\"data/cognitive/synapse/content/synapseVideo.png\" style=\"height: 100%;\"> <img src=\"css/images/play.png\" style=\"position:absolute; left:150px; top:15px; width: 75px;  padding-top: 10%;\"> </div>"
+		},
+        {
+			"w" : 2,
+			"h" : 1,
+			"oh" : 0,
+            "ow" : 2,
+            "nobackground" : true,
+			"image":"data/cognitive/synapse/content/synapse_board.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+        {
+			"w" : 2,
+			"h" : 1,
+			"oh" : 2,
+            "ow" : 4,
+            "nobackground" : true,
+			"image":"data/cognitive/synapse/content/synapse_board_therm.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3,
+			"h" : 3,
+			"ow" : 0,
+			"url" : "data/mobile/content/collaboration.html"
+		},
+		{
+			"w" : 3,
+			"h" : 2,
+			"ow" : 3,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/webrtc1.png\" style=\"height: 100%;\"></div>",
+			"nobackground" : true
+		}
+	]
+}

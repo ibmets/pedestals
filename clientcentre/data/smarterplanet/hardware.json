@@ -1,0 +1,45 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 3,
+			"oh" : 0,
+			"url" : "data/smarterplanet/content/hardware-1.html"
+		}, 
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 0,
+			"oh" : 1,
+			"url" : "data/smarterplanet/content/hardware-2.html"
+		}, 
+		{
+			"w" : 3,
+			"h" : 1,
+			"ow" : 0,
+			"oh" : 2,
+			"url" : "data/smarterplanet/content/hardware-3.html"
+		}, 
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 3,
+			"oh" : 1,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Light_Sensor.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"ow" : 0,
+			"oh" : 0,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/arduino.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		}
+	]
+}

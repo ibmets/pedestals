@@ -1,0 +1,17 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 3,
+			"h" : 2,
+			"ow" : 1,
+			"oh" : 1,
+			"url" : "data/mobile/content/hardware.html"
+		},
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 4,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/arduino.jpg\" style=\"height: 100%;\"></div>"
+		}
+	]
+}

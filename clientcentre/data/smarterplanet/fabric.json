@@ -1,0 +1,49 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 2,
+			"h" : 2,
+			"ow" : 2,
+			"oh" : 0,
+			"url" : "data/smarterplanet/content/fabric1.html"
+		},
+		{
+			"w" : 4,
+			"h" : 1,
+			"ow" : 2,
+			"oh" : 2,
+			"url" : "data/smarterplanet/content/fabric2.html"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"ow" : 0,
+			"oh" : 0,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Edgware_Fabric.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"ow" : 4,
+			"oh" : 0,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Edgware_Plant_Control_Room.png",
+			"imageWidth":"100%",
+			"imageHeight":"97%",
+			"onclick": "image"
+		},
+		{
+			"w" : 2,
+			"h" : 1,
+			"ow" : 4,
+			"oh" : 1,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Edgware_Plant_Bus.png",
+			"imageWidth":"100%",
+			"onclick": "image"
+		}
+	]
+}

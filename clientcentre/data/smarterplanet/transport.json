@@ -1,0 +1,44 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 2,
+			"h" : 3,
+			"ow" : 4,
+			"oh" : 0,
+			"url" : "data/smarterplanet/content/transport.html"
+		},
+		{
+			"w" : 1,
+			"h" : 2,
+			"ow" : 2,
+			"oh" : 0,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Smarter_Commute_Driver.png",
+			"imageWidth":"100%",
+			"imageHeight":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 1,
+			"h" : 2,
+			"ow" : 3,
+			"oh" : 0,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Smarter_Commute_Request.png",
+			"imageWidth":"100%",
+			"imageHeight":"100%",
+			"onclick": "image"
+		},
+		{
+			"w" : 2,
+			"h" : 3,
+			"ow" : 0,
+			"oh" : 0,
+			"nobackground" : true,
+			"image":"data/smarterplanet/images/Smarter_Commute_Home_Page.png",
+			"imageWidth":"100%",
+			"imageHeight":"100%",
+			"onclick": "image"
+		}
+	]
+}

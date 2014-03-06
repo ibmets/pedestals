@@ -1,0 +1,29 @@
+{ 
+	"sections" : [ 
+		{
+			"w" : 2,
+			"h" : 3,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/voicebank2.jpg\" style=\"height: 100%;\"></div>"
+		},
+		{
+			"w" : 4,
+			"h" : 2,
+			"ow" : 2,
+			"url" : "data/mobile/content/health.html"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 2,
+            "oh" : 2,
+			"html" : "<div style=\"overflow: hidden; height: 100%; width: 100%;\"><img src=\"data/mobile/content/voicebank1.jpg\" style=\"width: 100%;\"></div>"
+		},
+		{
+			"w" : 1,
+			"h" : 1,
+			"ow" : 3,
+            "oh" : 2,
+			"html" : "<div style=\"overflow: hidden; height: 120%; width: 100%;\"><img src=\"data/mobile/content/lgrwatch.jpg\" style=\"width: 100%;\"></div>"
+		}
+	]
+}
